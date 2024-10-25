@@ -11,4 +11,11 @@ const exchangeRates = {
     BRL: {EUR: 0.16, USD: 0.18 },
     EUR: {BRL: 6.16, USD: 1.08 }
 }; 
+
+let valorConvertido;
+if(moeda1 === moeda2){
+    valorConvertido = valor;
+} else{
+    valorConvertido = valor * exchangeRates [moeda1][moeda2];  // localiza a chave 'USD' 'BRL' 'EUR'
+}
 });
