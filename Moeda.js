@@ -3,7 +3,7 @@ document.getElementById('currency-form').addEventListener('submit', function(eve
     event.preventDefault();
 
 // Obter valores de entrada do formulario
-const valor = parseFloat(docment.getElementById('valor').value);
+const valor = parseFloat(document.getElementById('valor').value);
 const moeda1 = document.getElementById('moeda1').value;
 const moeda2 = document.getElementById('moeda2').value;
 
@@ -18,9 +18,9 @@ let valorConvertido;
 if(moeda1 === moeda2){
     valorConvertido = valor;
 } else{
-    valorConvertido = valor * exchangeRates [moeda1][moeda2];  // localiza a chave 'USD' 'BRL' 'EUR'
+    valorConvertido = valor * exchangeRates[moeda1][moeda2];  // localiza a chave 'USD' 'BRL' 'EUR'
 }
 
 let conversao = document.getElementById('conversao');
-conversao.textContent = `Resultado ${valorConvertido.toFixed(2)} ${moeda1}`; //pegando o elelmento do id conversao do html 
+conversao.textContent = `Resultado ${valorConvertido.toFixed(2)} ${moeda2}`; //pegando o elelmento do id conversao do html 
 });
