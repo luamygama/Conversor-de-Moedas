@@ -44,4 +44,4 @@ Saída 🏃
 Este projeto será documentado no LinkedIn!
 
 # *📝 Autoria:*
-Este projeto é uma criação ´´Luamy Alves Gama´´ espero que tenha gostado!
+Este projeto é uma criação ´´[Luamy Alves Gama](https://www.linkedin.com/in/luamy-alves-gama-1398332b1/)´´ espero que tenha gostado!
